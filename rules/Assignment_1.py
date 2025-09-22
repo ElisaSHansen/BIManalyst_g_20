@@ -12,18 +12,18 @@ columns = model.by_type('IfcColumn')
 columns_info = [col.get_info() for col in columns]
 
 # Prints the whole list
-print(columns_info)
+#print(columns_info)
 
 # Lists up names for all columns in ifc file
 names = [col.Name for col in columns]
-print(names)
+#print(names)
 
 # Concrete columns
 # Print out concrete columns name
 concrete_columns = [col for col in columns if col.Name and "Concrete" in col.Name]
-print("\nNavn på alle Concrete-søyler:")
-for col in concrete_columns:
-    print("-", col.Name)
+#print("\nName all Concrete-columns:")
+#for col in concrete_columns:
+#    print("-", col.Name)
 
 # Number of Concrete-columns
 print("\nNumber of Concrete-columns:", len(concrete_columns))
@@ -54,6 +54,3 @@ dimension_counts = Counter(dimensions)
 print("Number of wood columns per dimension:\n")
 for dimension, count in dimension_counts.items():
     print(f"{dimension}: {count}")
-
-
-#??
