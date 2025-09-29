@@ -76,6 +76,37 @@ A:
 
 ![Workflow Chart with Highlights](diagram%20med%20highlights.svg)
 
+##A2e: Tool idea
+
+**Q: Describe in words your idea for your own OpenBIM ifcOpenShell Tool in Python.**
+
+A: Our idea is to develop a Python-based OpenBIM tool that uses IfcOpenShell to automatically check the axial capacity of columns in a structural BIM model. Data Input (from BIM + analysis files)
+The tool will read the IFC model using IfcOpenShell to extract geometry and material properties of columns (e.g., cross-sectional dimensions, concrete grade, reinforcement data).
+Additional load data will be imported from external calculation files (in this case, we hope we can use the scripts from the analysts in our group) containing beam and slab forces acting on the columns.
+A report will be generated summarizing column IDs, geometry, loads, capacities, and pass/fail status.
+
+
+**Q: What is the business and societal value of your tool?**
+
+A: 
+- **Business Value:**
+   - Efficiency & Cost Savings - Automates repetitive structural checks, reducing the time engineers spend on manual calculations and data transfer.
+   - Early Risk Detection - Identifies undersized or overloaded columns early in the design, avoiding costly redesigns or construction delays.
+   - Improved Collaboration - Provides transparent, model-based results that can be shared across disciplines (architects, engineers, contractors).
+   - Competitive Advantage - Engineering firms that adopt automated, open-source BIM tools can deliver projects faster and with higher quality, strengthening their market position.
+
+- **Societal Value:**
+   - Safety - Ensures that critical load-bearing elements (columns) are properly dimensioned, reducing the risk of structural failure.
+   - Sustainability - Helps avoid over-dimensioning, which wastes material, and under-dimensioning, which compromises safety, leading to more resource-efficient structures.
+   - Accessibility - By using open-source software, the tool can be adopted by smaller firms, universities, and public projects — not just large corporations.
+   
+**Q: Produce a BPMN diagram to summarise your idea**
+
+## A2f: Information Requirements
+
+
+
+
 ## A2g: Identify appropriate software licence
 
 **Q: What software licence will you choose for your project?**
