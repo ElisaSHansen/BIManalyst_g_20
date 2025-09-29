@@ -65,14 +65,23 @@ A:
 - **14: Construction Coordination** Reduces risk of defects and safety issues during erection
 - **xx: Rehabilitation** Supports sustainable reusing of structures and avoids overdesign. (Created our own)
 
+# BPMN drawing of our chosen use case
+
+![Workflow Chart](Workflow%20chart.svg)
+
+
+# A2d: Scope the use case
+
+**Q: From the ‘whole use case’ identify where a new script / function / tool is needed. Highlight this in your BPMN diagram. Show this clearly in a new SVG diagram.**
+
+
+
+
 ## A2g: Identify appropriate software licence
 
 **Q: What software licence will you choose for your project?**
 
 A: We will use Python as the main software for this project, asweel as Blender 4.5
 
-# Workflow Chart
-
-![Workflow Chart](Workflow%20chart.svg)
 
 
