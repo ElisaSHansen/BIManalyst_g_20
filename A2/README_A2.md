@@ -1,0 +1,5 @@
+## A2a: About your group
+
+**Q: How much do you agree with the following statement: I am confident coding in Python**
+
+A: 0. This is the first time that both of us are coding in Python
