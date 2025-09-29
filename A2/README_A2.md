@@ -70,12 +70,11 @@ A:
 ![Workflow Chart](Workflow%20chart.svg)
 
 
-# A2d: Scope the use case
+## A2d: Scope the use case
 
 **Q: From the ‘whole use case’ identify where a new script / function / tool is needed. Highlight this in your BPMN diagram. Show this clearly in a new SVG diagram.**
 
-
-
+![Workflow Chart with Highlights](diagram%20med%20highlights.svg)
 
 ## A2g: Identify appropriate software licence
 
