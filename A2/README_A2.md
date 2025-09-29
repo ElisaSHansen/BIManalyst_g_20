@@ -71,5 +71,8 @@ A:
 
 A: We will use Python as the main software for this project, asweel as Blender 4.5
 
-![Workflow Chart]("Workflow chart.svg")
+# Workflow Chart
+
+![Workflow Chart](Workflow%20chart.svg)
+
 
