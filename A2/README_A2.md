@@ -70,3 +70,6 @@ A:
 **Q: What software licence will you choose for your project?**
 
 A: We will use Python as the main software for this project, asweel as Blender 4.5
+
+![Workflow Chart]("Workflow chart.svg")
+
