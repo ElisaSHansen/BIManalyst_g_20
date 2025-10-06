@@ -103,6 +103,16 @@ A:
    
 **Q: Produce a BPMN diagram to summarise your idea**
 
+
+![Workflow Chart for idea](Idea%20diagram.svg)
+- Start Event – The process begins once load data from slabs and columns is available.
+- Calculate Slab and Column Loads – The system (or script) gathers load data from previous structural analysis or simulation results.
+- Calculate Column Capacity – Python scripts (using IfcOpenShell or other tools) compute the design axial capacity NRd for each column based on geometry, material data, and reinforcement details.
+- Decision: Capacity Utilization OK? – The process evaluates whether the calculated load/utilization ratio for each column is within acceptable limits.
+- Yes → Generate Report in Python – If utilization is acceptable, the script compiles all results into a formatted report (including column IDs, capacities, and utilization factors).
+- No → End Process (requires revision) – If capacity is exceeded, the process stops and flags the relevant columns for redesign or further review.
+- End Event – The process completes when all columns are evaluated and the report is generated.
+
 ## A2f: Information Requirements
 
 **Q: Identify what information you need to extract from the model**
