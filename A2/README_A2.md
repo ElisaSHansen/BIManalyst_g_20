@@ -116,6 +116,7 @@ A:
 ## A2f: Information Requirements
 
 **Q: Identify what information you need to extract from the model**
+
 A:
 - Dimensions for the columns
 - Number of columns
@@ -123,18 +124,22 @@ A:
 
 
 **Q: Where is this in IFC?**
+
 A:
 We are assuming that the data is located in IfcColumn, IfcOpenShell and collections 
 
 **Q: Is it in the model?**
+
 A:
 There is no data about the reinforcement in the model, therefor we are assuming the minimum reinforcement.
 
 **Q:Do you know how to get it in ifcOpenShell?**
+
 A: 
 - We guess we need to either update the exicting data, or create new objects by property sets in IFCopenshell. We will figure it out. 
 
 **Q: What will you need to learn to do this?**
+
 A:
 We need to learn how to use Python to extract the necessary data from the IFC model, add any missing information, apply loads from an external script, and generate reports directly in Python.
 
