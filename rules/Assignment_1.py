@@ -1,7 +1,6 @@
 import ifcopenshell as ifc
 from collections import Counter
 
-import os
 
 model=ifc.open("25-16-D-STR.ifc")
 

@@ -16,7 +16,7 @@ A: We'll be focusing at building #2516
 
 **Q: Identify a ‘claim’ / issue / fact to check from one of those reports.**
 
-A: As stated on page 11 of the report, the capacity is deemed sufficient, with a utilization of 27%. Accordingly, our assessment will focus on verifying whether the axial capacity is adequate to resist the loads imposed by the beams and slabs.
+A: As stated on page 11 of the report, the capacity is deemed sufficient. Accordingly, our assessment will focus on verifying whether the axial capacity for the columns in the first floor is adequate to resist the loads imposed by the beams and slabs from the floors above.
 
 **Q: Justify your selection of your claim**
 A: By focusing on this aspect within the BIM model, we ensure that the interaction between structural elements is properly accounted for and that potential risks of underestimation of load transfer are minimized.
@@ -29,10 +29,10 @@ A: By focusing on this aspect within the BIM model, we ensure that the interacti
 
 A: 
 
-1. Repeat for every floor:
-   - 1.1 To check this claim, we have to repeat this action for every column on every floor:
-     - 1.1.1 Check the length of the column.
-     - 1.1.2 Check the area for concrete and reinforcement from a cross-section of the column.
+1. Check the axial capacity for the columns in the basement
+   - 1.1 Find the loads from the floors above
+     - 1.1.1 Divide the loads per squaremeter equally per column.
+     - 1.1.2 Check the area for concrete and assume reinforcement from a cross-section of the column.
      - 1.1.3 Check the design values and partial factors for concrete and steel
      - 1.1.4 (if it's not in the IFCModel, we will use the data from the report).
      - 1.1.5 Calculate the capacity of the columns.
@@ -67,7 +67,7 @@ A:
 
 # BPMN drawing of our chosen use case
 
-![Workflow Chart](Workflow%20chart.svg)
+![Workflow Chart](diagram.svg)
 
 
 ## A2d: Scope the use case
@@ -76,14 +76,15 @@ A:
 
 ![Workflow Chart with Highlights](diagram%20med%20highlights.svg)
 
-##A2e: Tool idea
+
+## A2e: Tool idea
 
 **Q: Describe in words your idea for your own OpenBIM ifcOpenShell Tool in Python.**
 
 A: Our idea is to develop a Python-based OpenBIM tool that uses IfcOpenShell to automatically check the axial capacity of columns in a structural BIM model. Data Input (from BIM + analysis files)
-The tool will read the IFC model using IfcOpenShell to extract geometry and material properties of columns (e.g., cross-sectional dimensions, concrete grade, reinforcement data).
+The tool will read the IFC model using IfcOpenShell to extract geometry and material properties of columns (e.g., cross-sectional dimensions, concrete grade, and reinforcement data if it's there').
 Additional load data will be imported from external calculation files (in this case, we hope we can use the scripts from the analysts in our group) containing beam and slab forces acting on the columns.
-A report will be generated summarizing column IDs, geometry, loads, capacities, and pass/fail status.
+A report will be generated summarizing column IDs, geometry, loads, capacities, utilization and pass/fail status .
 
 
 **Q: What is the business and societal value of your tool?**
@@ -104,7 +105,28 @@ A:
 
 ## A2f: Information Requirements
 
+**Q: Identify what information you need to extract from the model**
+A:
+- Dimensions for the columns
+- Number of columns
+- Design values and partial factors for the concrete that are used
 
+
+**Q: Where is this in IFC?**
+A:
+We are assuming that the data is located in IfcColumn, IfcOpenShell and collections 
+
+**Q: Is it in the model?**
+A:
+There is no data about the reinforcement in the model, therefor we are assuming the minimum reinforcement.
+
+**Q:Do you know how to get it in ifcOpenShell?**
+A: 
+- We guess we need to either update the exicting data, or create new objects by property sets in IFCopenshell. We will figure it out. 
+
+**Q: What will you need to learn to do this?**
+A:
+We need to learn how to use Python to extract the necessary data from the IFC model, add any missing information, apply loads from an external script, and generate reports directly in Python.
 
 
 ## A2g: Identify appropriate software licence
