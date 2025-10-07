@@ -103,9 +103,20 @@ A:
    
 **Q: Produce a BPMN diagram to summarise your idea**
 
+
+![Workflow Chart for idea](Idea%20diagram.svg)
+- Start Event – The process begins once load data from slabs and columns is available.
+- Calculate Slab and Column Loads – The system (or script) gathers load data from previous structural analysis or simulation results.
+- Calculate Column Capacity – Python scripts (using IfcOpenShell or other tools) compute the design axial capacity NRd for each column based on geometry, material data, and reinforcement details.
+- Decision: Capacity Utilization OK? – The process evaluates whether the calculated load/utilization ratio for each column is within acceptable limits.
+- Yes → Generate Report in Python – If utilization is acceptable, the script compiles all results into a formatted report (including column IDs, capacities, and utilization factors).
+- No → End Process (requires revision) – If capacity is exceeded, the process stops and flags the relevant columns for redesign or further review.
+- End Event – The process completes when all columns are evaluated and the report is generated.
+
 ## A2f: Information Requirements
 
 **Q: Identify what information you need to extract from the model**
+
 A:
 - Dimensions for the columns
 - Number of columns
@@ -113,18 +124,22 @@ A:
 
 
 **Q: Where is this in IFC?**
+
 A:
 We are assuming that the data is located in IfcColumn, IfcOpenShell and collections 
 
 **Q: Is it in the model?**
+
 A:
 There is no data about the reinforcement in the model, therefor we are assuming the minimum reinforcement.
 
 **Q:Do you know how to get it in ifcOpenShell?**
+
 A: 
 - We guess we need to either update the exicting data, or create new objects by property sets in IFCopenshell. We will figure it out. 
 
 **Q: What will you need to learn to do this?**
+
 A:
 We need to learn how to use Python to extract the necessary data from the IFC model, add any missing information, apply loads from an external script, and generate reports directly in Python.
 
