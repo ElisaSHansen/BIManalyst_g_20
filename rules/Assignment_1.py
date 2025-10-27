@@ -10,7 +10,7 @@ columns = model.by_type('IfcColumn')
 # Making a list of info for all columns
 columns_info = [col.get_info() for col in columns]
 
-# Prints the whole list
+#Prints the whole list
 #print(columns_info)
 
 # Lists up names for all columns in ifc file

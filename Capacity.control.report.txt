@@ -1,0 +1,8 @@
+Concrete columns:
+  A1: 320x200 mm -> A = 64000 mm², Nrd = 1544.8 kN
+  Ned= 882.78 kN. Capacity for column is OK, utilization = 57.14 %
+
+  A2: 700x200 mm -> A = 140000 mm², Nrd = 3379.3 kN
+  Ned= 882.78 kN. Capacity for column is OK, utilization = 26.12 %
+
+

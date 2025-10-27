@@ -1,3 +1,4 @@
+
 import ifcopenshell as ifc
 from collections import defaultdict, Counter
 
@@ -56,15 +57,6 @@ for material, dims in data.items():
     print()
 
 
-# --- geometry (bounding box) ---
-try:
-    import ifcopenshell.geom as geom
-except Exception as e:
-    print("ifcopenshell.geom is not available (OCC geometry kernel required).", e)
-    raise SystemExit(1)
-
-model = ifc.open("25-16-D-STR.ifc")
-
 # Make sure we use world coordinates (so z=0 is global)
 settings = geom.settings()
 try:
@@ -94,6 +86,7 @@ def get_bbox_height_m(col):
     zmin, zmax = mm
     return zmax - zmin
 
+
 def material_from_name(name):
     """Detect material type based on the column name."""
     n = (name or "").lower()
@@ -121,7 +114,7 @@ for col in model.by_type("IfcColumn"):
     zmin, zmax = mm
 
     # keep only columns whose base is at z=0 (± tolerance)
-    if -TOL <= zmin <= TOL:
+    if -TOL <= zmax <= TOL:
         h = zmax - zmin
         data[mat][dim].append(round(h, 3))
 
@@ -137,8 +130,9 @@ for mat, dims in data.items():
 
 import re
 
-fc=355
-gamma_m0 = 1.5
+fc=35
+gamma_m0 = 1.45
+Ned = 882.78
 
 def rect_area_from_dim(dim_text: str) -> float:
     """Return area in m² from text like '200x200 mm' or '0.2x0.2 m'."""
@@ -152,7 +146,7 @@ def rect_area_from_dim(dim_text: str) -> float:
     elif unit == "cm": b *= 1e-2; h *= 1e-2
     return b * h  # m²
 
-print("Axial capacities for all dimensions (Z=0 columns):\n")
+print("Axial capacities for all dimensions (basement columns):\n")
 i = 1
 for mat, dims in data.items():
     print(f"{mat} columns:")
@@ -165,3 +159,28 @@ for mat, dims in data.items():
             print(f"  A{i}: {dim} -> A = {A_mm2:.0f} mm², Nrd = {round(Nrd,1)} kN")
             i += 1
     print()
+
+
+#This makes a report of axial capacity for each column with base at z=0
+from contextlib import redirect_stdout
+
+with open("Capacity.control.report.txt", "w", encoding="utf-8") as f, redirect_stdout(f):
+    # all your print() statements go here
+    j = 1
+    for mat, dims in data.items():
+        print(f"{mat} columns:")
+        for dim in sorted(dims.keys()):
+            A = rect_area_from_dim(dim)
+            if A:
+                A_mm2 = A *1e6
+                Nrd = (fc*A_mm2/ gamma_m0) / 1000
+                print(f"  A{j}: {dim} -> A = {A_mm2:.0f} mm², Nrd = {round(Nrd,1)} kN")
+                if Nrd > Ned:
+                    print("  Ned=",Ned,"kN. Capacity for column is OK, utilization =", round((Ned/Nrd)*100,2),"%")
+                    print("")
+                else:
+                    print("  Capacity for column is maybe insufficient, utilization =", round((Ned/Nrd)*100,2),"%")
+                    print("")
+                j += 1      
+        print()
+
