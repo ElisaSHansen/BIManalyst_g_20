@@ -1,10 +1,15 @@
+TECHNICAL UNIVERSITY OF DENMARK MSc Civil Engineering / 41934 Advanced Building Information Modeling (BIM) / 2025 Autumn Semester / Assignment 2 - Use Case / Lecturer: Associate Professor Tim Pat McGinley / Students: Ida Sofie Fiksdal s253450 & Elisa Steen-Hansen s253443    
+
 # Assignment 3: Tool
+
+**Note:**
+In Assignment 2, the task specified that loads from slabs and beams should be used as input to the script in order to verify the columns’ capacity and utilization. However, due to technical complications in transferring these loads from the BIM model, we decided instead to use point loads obtained from the Advanced Building Design report for Building 16 to complete and validate this tool.
 
 ## About the Tool:
 
 **Q: State the problem / claim that your tool is solving, and state where you found that problem.**
 
-A: As stated on page 11 of the report, the capacity is deemed sufficient. Accordingly, this tool will focus on verifying whether the axial capacity for the columns in the basement is adequate to resist the loads imposed by the beams and slabs from the floors above.
+A: As stated on page 11 of the report, the capacity is deemed sufficient. Accordingly, this tool will focus on verifying whether the axial capacity for the columns in the basement is adequate to resist the point loads from the report.
 
 **Q: Description of the tool**
 
@@ -32,10 +37,25 @@ Finally, the results are compiled into a capacity control report, providing a su
 - Apply the loads
 - Run the code
 
-4. Save the Outputs to a file
-- Save the printed outputs to a text file by:
+4. Create a report with the results
+- Run the last code in the script
 
-python A3.py > results.text
+The report with results from the calculations will appear in a txt.file called "Capacity.control.report.txt" in your files. 
+Here you can check the column ID, geometry, loads, utilizations and if the columns are OK or insufficient. 
+
+## Advanced Building Design
+
+**Q: What Advanced Building Design Stage (A,B,C or D) would your tool be useful?**
+A: Out tool would be most useful in stage B, for Advanced Building Design, while developing different building system options. But also at stage C when integrating the selected options with the client requirements.
+
+**Q: Which subjects might use it?**
+A: The tool is mainly for structural designer. 
+
+**Q: What information is required in the model for your tool to work?**
+A: Information such as material, geometry and dimensions for the different floors is required in the model for this tool to work. This is why IfcOpenShell is required. 
+
+
+
 
 
 
