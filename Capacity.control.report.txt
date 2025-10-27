@@ -1,8 +1,26 @@
 Concrete columns:
   A1: 320x200 mm -> A = 64000 mm², Nrd = 1544.8 kN
-  Ned= 882.78 kN. Capacity for column is OK, utilization = 57.14 %
+ -GlobalId: 1gBbes5lD1DQsWtn$7fdZO
+ -GlobalId: 1gBbes5lD1DQsWtn$7fdZQ
+ -GlobalId: 1gBbes5lD1DQsWtn$7fdZd
+ -GlobalId: 1gBbes5lD1DQsWtn$7fdZf
+ -GlobalId: 1gBbes5lD1DQsWtn$7fdZp
+ -GlobalId: 1gBbes5lD1DQsWtn$7fdZr
+ -GlobalId: 1gBbes5lD1DQsWtn$7fdZ$
+ -GlobalId: 1gBbes5lD1DQsWtn$7fdW1
+ -GlobalId: 1gBbes5lD1DQsWtn$7fdWB
+ -GlobalId: 1gBbes5lD1DQsWtn$7fdWD
+ -GlobalId: 1gBbes5lD1DQsWtn$7fdWP
+ -GlobalId: 1gBbes5lD1DQsWtn$7fdWR
+ -GlobalId: 1gBbes5lD1DQsWtn$7fdWZ
+ -GlobalId: 1gBbes5lD1DQsWtn$7fdWb
+ -GlobalId: 1gBbes5lD1DQsWtn$7fdWk
+ -GlobalId: 1gBbes5lD1DQsWtn$7fdWm
+  Capacity for column is maybe insufficient, utilization = 213.67 %
 
   A2: 700x200 mm -> A = 140000 mm², Nrd = 3379.3 kN
-  Ned= 882.78 kN. Capacity for column is OK, utilization = 26.12 %
+ -GlobalId: 1gBbes5lD1DQsWtn$7fdZR
+ -GlobalId: 1gBbes5lD1DQsWtn$7fdWn
+  Ned= 3300.78 kN. Capacity for column is OK, utilization = 97.68 %
 
 

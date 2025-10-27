@@ -8,10 +8,10 @@ model=ifc.open("25-16-D-STR.ifc")
 columns = model.by_type('IfcColumn')
 
 # Making a list of info for all columns
-columns_info = [col.get_info() for col in columns]
+columns_info = [col.get_info() for col in columns][0]
 
 #Prints the whole list
-#print(columns_info)
+print(columns_info)
 
 # Lists up names for all columns in ifc file
 names = [col.Name for col in columns]
