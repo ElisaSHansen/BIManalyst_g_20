@@ -15,24 +15,22 @@ The computed capacities are then compared with the applied loads to evaluate whe
 If a column’s capacity is insufficient, it is flagged for review; otherwise, it is marked as OK.
 Finally, the results are compiled into a capacity control report, providing a summary of which columns pass or fail the capacity check.
  
-**Q: Instructions to run the tool**
+**Q: 🚀Instructions to run the tool**
 
-## 🚀 
-
-#1. Requirements
+1. Requirements
 - Python
 - IfcOpenShell
 
-#2. Prepeare your IFC Model
+2. Prepeare your IFC Model
 - Save the structural model "25-16-D-STR" as an IFC file. 
 - Place the file in the same folder as the script. 
 
-#3. Run the script
+3. Run the script
 - Open the IFC model under "model"
 - Apply the loads from other scripts ????
 - Run the code
 
-#4. Save the Outputs to a file
+4. Save the Outputs to a file
 - Save the printed outputs to a text file by:
 
 python A3.py > results.text
