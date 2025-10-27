@@ -1,3 +1,7 @@
+# Change these variables to fit your model and claims:
+fc=35 #N/mm^2, material compressive strength for concrete
+gamma_m0 = 1.45 #material safety factor for concrete axial capacity
+Ned = 882.78 #Axial force claim for testing columns
 
 import ifcopenshell as ifc
 from collections import defaultdict, Counter
@@ -79,6 +83,7 @@ def get_bbox_minmax_z(col):
     except Exception:
         return None
 
+# Box height of each column
 def get_bbox_height_m(col):
     mm = get_bbox_minmax_z(col)
     if not mm:
@@ -130,10 +135,6 @@ for mat, dims in data.items():
 
 import re
 
-fc=35
-gamma_m0 = 1.45
-Ned = 882.78
-
 def rect_area_from_dim(dim_text: str) -> float:
     """Return area in m² from text like '200x200 mm' or '0.2x0.2 m'."""
     m = re.search(r'(\d+(?:\.\d+)?)\s*[x×]\s*(\d+(?:\.\d+)?)\s*(mm|cm|m)?', dim_text.lower())
@@ -165,7 +166,6 @@ for mat, dims in data.items():
 from contextlib import redirect_stdout
 
 with open("Capacity.control.report.txt", "w", encoding="utf-8") as f, redirect_stdout(f):
-    # all your print() statements go here
     j = 1
     for mat, dims in data.items():
         print(f"{mat} columns:")
@@ -174,7 +174,16 @@ with open("Capacity.control.report.txt", "w", encoding="utf-8") as f, redirect_s
             if A:
                 A_mm2 = A *1e6
                 Nrd = (fc*A_mm2/ gamma_m0) / 1000
+                matching_cols = [
+                    col for col in model.by_type("IfcColumn")
+                    if getattr(col, "Name", "") and dim in str(col.Name)
+                    and mat in (material_from_name(col.Name) or "")
+                    and abs(get_bbox_minmax_z(col)[1]) <= TOL
+                    ]
+                
                 print(f"  A{j}: {dim} -> A = {A_mm2:.0f} mm², Nrd = {round(Nrd,1)} kN")
+                for col in matching_cols:
+                    print(f" -GlobalId: {col.GlobalId}")
                 if Nrd > Ned:
                     print("  Ned=",Ned,"kN. Capacity for column is OK, utilization =", round((Ned/Nrd)*100,2),"%")
                     print("")
