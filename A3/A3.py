@@ -83,7 +83,7 @@ def get_bbox_minmax_z(col):
     except Exception:
         return None
 
-# Box height of each column
+
 def get_bbox_height_m(col):
     mm = get_bbox_minmax_z(col)
     if not mm:
