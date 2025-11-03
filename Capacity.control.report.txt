@@ -502,5 +502,5 @@ Model: 25-16-D-STR.ifc
 
 --------------------------------------------------------------------------------
 TOTAL: 83 checked columns | OK: 83 | NOT OK: 0
-Worst utilization: 68.75%  (GlobalId 1gBbes5lD1DQsWtn$7fdd6, Nrd=1544.8 kN, dim≈ 320×200 mm)
+Worst utilization: 68.75%, Nrd=1544.8 kN, dim≈ 320×200 mm
 End of report.
