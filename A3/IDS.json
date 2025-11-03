@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0",
+  "specifications": [
+    {
+      "name": "Capacity Control - Structural Columns",
+      "version": "1.0",
+      "applicability": [
+        {
+          "applicabilityEntity": {
+            "name": "IfcColumn"
+          }
+        }
+      ],
+      "requirements": [
+        {
+          "applicability": [],
+          "requirementEntity": {
+            "name": "IfcMaterial"
+          },
+          "requirementAttribute": {
+            "name": "Name"
+          },
+          "cardinality": "required",
+          "description": "Each column must have at least one material assigned via IfcRelAssociatesMaterial."
+        },
+        {
+          "applicability": [],
+          "requirementAttribute": {
+            "name": "IfcMaterial.Name"
+          },
+          "description": "For concrete elements, the compressive strength class must be included in the material name, e.g. 'C25/30', 'C35', or 'C40/50'.",
+          "allowedValues": [
+            {
+              "pattern": "C[0-9]{2}(/?[0-9]{0,2})?"
+            }
+          ]
+        },
+        {
+          "applicability": [],
+          "requirementEntity": {
+            "name": "IfcProfileDef"
+          },
+          "requirementAttribute": {
+            "name": "XDim"
+          },
+          "cardinality": "required",
+          "description": "Each column must have a valid section profile definition (IfcProfileDef) so that cross-sectional area can be calculated (e.g. XDim/YDim or Radius)."
+        },
+        {
+          "applicability": [],
+          "requirementEntity": {
+            "name": "IfcUnitAssignment"
+          },
+          "requirementAttribute": {
+            "name": "Units.Name"
+          },
+          "allowedValues": [
+            { "value": "METRE" },
+            { "value": "MILLI" },
+            { "value": "CENTI" },
+            { "value": "KILO" }
+          ],
+          "description": "The model must have a defined length unit such as metre, millimetre, centimetre, or kilometre."
+        },
+        {
+          "applicability": [],
+          "requirementAttribute": {
+            "name": "IfcRelContainedInSpatialStructure.RelatingStructure"
+          },
+          "cardinality": "required",
+          "description": "Each column must be spatially contained in a building storey (IfcBuildingStorey) via IfcRelContainedInSpatialStructure."
+        }
+      ]
+    }
+  ]
+}
