@@ -1,17 +1,13 @@
 # Change these variables to fit your model and claims:
 fc=35 #N/mm^2, material compressive strength for concrete
 gamma_m0 = 1.45 #material safety factor for concrete axial capacity
-Ned = 882.78 #Axial force claim for testing columns
+Ned = 1062 #Axial force claim for testing columns
 
 import ifcopenshell as ifc
 from collections import defaultdict, Counter
 
 # Import geometry module (requires IfcOpenShell with OCC support)
-try:
-    import ifcopenshell.geom as geom
-except Exception as e:
-    print("ifcopenshell.geom is not available (OCC geometry kernel required).", e)
-    raise SystemExit(1)
+import ifcopenshell.geom as geom
 
 # Open the IFC model
 model = ifc.open("25-16-D-STR.ifc")
@@ -83,7 +79,7 @@ def get_bbox_minmax_z(col):
     except Exception:
         return None
 
-
+# Box height of each column
 def get_bbox_height_m(col):
     mm = get_bbox_minmax_z(col)
     if not mm:
@@ -192,4 +188,3 @@ with open("Capacity.control.report.txt", "w", encoding="utf-8") as f, redirect_s
                     print("")
                 j += 1      
         print()
-
