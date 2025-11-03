@@ -19,7 +19,7 @@ except Exception:
 
 A_SANITY_EDGE_M = 5.0  # if plan dims > 5 m → use bbox as sanity fallback
 
-# ---------- Units ----------
+# Units
 def length_unit_scale_to_m(model):
     """Return scale from model length unit to meters."""
     scale = 1.0
@@ -44,7 +44,7 @@ def length_unit_scale_to_m(model):
                         pass
     return scale
 
-# ---------- Spatial ----------
+# Spatial
 def climb_to_storey(spatial):
     """Climb up the spatial tree to the nearest IfcBuildingStorey."""
     cur = spatial
@@ -80,7 +80,7 @@ def is_storey_match_minus1(storey):
     txt = (str(getattr(storey, "Name", "") or "") + " " + str(getattr(storey, "LongName", "") or "")).lower()
     return STOREY_MATCH.lower() in txt
 
-# ---------- Material (IFC4/IFC4x3) ----------
+# Material (IFC4/IFC4x3)
 def _relating_material(el):
     """Return the RelatingMaterial definition on instance or type."""
     for rel in (el.HasAssociations or []):
@@ -437,8 +437,9 @@ def main():
         total = ok_cnt + nok_cnt
         print(f"TOTAL: {total} checked columns | OK: {ok_cnt} | NOT OK: {nok_cnt}")
         if worst["gid"] is not None:
-            print(f"Worst utilization: {worst['util']:.2f}%  (GlobalId {worst['gid']}, Nrd={worst['Nrd']:.1f} kN, "
-                  f"dim≈ {worst['w']:.0f}×{worst['h']:.0f} mm)")
+            print(f"Worst utilization: {worst['util']:.2f}%, Nrd={worst['Nrd']:.1f} kN, "
+                  f"dim≈ {worst['w']:.0f}×{worst['h']:.0f} mm")
+            
         print("End of report.")
 
 if __name__ == "__main__":

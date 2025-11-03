@@ -3,7 +3,8 @@ TECHNICAL UNIVERSITY OF DENMARK MSc Civil Engineering / 41934 Advanced Building 
 # Assignment 3: Tool
 
 **Note:**
-In Assignment 2, the task specified that loads from slabs and beams should be used as input to the script in order to verify the columns’ capacity and utilization. However, due to technical complications in transferring these loads from the BIM model, we decided instead to use point loads obtained from the Advanced Building Design report for Building 16 to complete and validate this tool.
+In Assignment 2, the task specified that loads from slabs and beams should be used as input to the script in order to verify the columns’ capacity and utilization. However, due to the other group having technical complications in transferring these loads from the BIM model, we decided instead to use point loads obtained from the Advanced Building Design report for Building 16 to complete and validate this tool.
+We came to a conclusion, that our tool is still useful without loads from the model. As this tool takes a load as input and checks if the utilization is overridden.
 
 ## About the Tool:
 
@@ -29,7 +30,7 @@ Finally, the results are compiled into a capacity control report, providing a su
 - IfcOpenShell
 
 2. Prepeare your IFC Model
-- Save the structural model "25-16-D-STR" as an IFC file. 
+- Save a structural model as an IFC file. 
 - Place the file in the same folder as the script. 
 
 3. Run the script
@@ -41,7 +42,8 @@ Finally, the results are compiled into a capacity control report, providing a su
 - Run the last code in the script
 
 The report with results from the calculations will appear in a txt.file called "Capacity.control.report.txt" in your files. 
-Here you can check the column ID, geometry, loads, utilizations and if the columns are OK or insufficient. 
+Here you can check the column ID, geometry, loads, utilizations and if the columns are OK or insufficient. Here, the worst utilization
+will be listed in the bottom of the report.
 
 ## Advanced Building Design
 
