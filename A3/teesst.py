@@ -131,7 +131,7 @@ def _material_names_from_def(matdef):
     return out
 
 def _normalize_material_class(names):
-    """Roughly classify material into Concrete/Steel/Wood/... based on names."""
+    """Roughly classify material into Concrete/Steel/Wood based on names."""
     text = " ".join(n.lower() for n in (names or []))
     rules = [
         ("Concrete", ["betong","concrete","c20","c25","c30","c35","c40","c45","c50"]),

@@ -1,506 +1,506 @@
 CAPACITY CONTROL REPORT (IfcColumn, storey match: '-1')
-Ned = 1062.00 kN | gamma_mo = 1.45 | fc_default = 35.0 N/mm²
+Ned = 882.78 kN | gamma_mo = 1.45 | fc_default = 35.0 N/mm²
 Model: 25-16-D-STR.ifc
 --------------------------------------------------------------------------------
 - GlobalId: 1gBbes5lD1DQsWtn$7fdd6
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdbO
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdba
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdYc
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdYf
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdYe
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdYq
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdYt
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdYs
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdZ0
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdZ2
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdZC
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdZF
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdZE
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdZO
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdZR
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdZQ
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdZd
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdZf
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdZp
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdZr
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdZ$
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdW1
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdWB
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdWD
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdWP
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdWR
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdWZ
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdWb
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdWk
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdWn
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdWm
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdWw
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdWz
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdWy
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdXA
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdXD
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdXC
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdXK
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdXN
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdXM
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdXW
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdXZ
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdXY
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdXi
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdXl
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdXk
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdXw
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdXz
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdXy
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdk6
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdk9
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdk8
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdkI
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdkL
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdkK
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdkU
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdkX
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdkW
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdkg
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdkj
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdki
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdks
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdkv
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdku
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdl0
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdl3
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdl2
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdlE
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdlH
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdlG
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdlQ
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdlT
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdlS
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdlc
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdlf
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdle
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdiJ
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdiV
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdja
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdji
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 1gBbes5lD1DQsWtn$7fdjs
   Storey: Level -1
   Dimensions: 320 × 200 mm | A = 64000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 1544.8 kN  vs  Ned = 1062.0 kN  → OK (utilization = 68.75%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 1544.8 kN  vs  Ned = 882.8 kN  → OK (utilization = 57.14%)
 
 - GlobalId: 2KJNIOw1nAJheMLIWB4kE8
   Storey: Level -1
   Dimensions: 700 × 200 mm | A = 140000 mm²
-  Material: Concrete (Concrete) | fc used = 35.0 N/mm²
-  Nrd = 3379.3 kN  vs  Ned = 1062.0 kN  → OK (utilization = 31.43%)
+  Material: Concrete (Concrete) | fc used = 35.0 N/mm² (source: default)
+  Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 --------------------------------------------------------------------------------
 TOTAL: 83 checked columns | OK: 83 | NOT OK: 0
-Worst utilization: 68.75%, Nrd=1544.8 kN, dim≈ 320×200 mm
+Worst utilization: 57.14%  (GlobalId 1gBbes5lD1DQsWtn$7fdd6, Nrd=1544.8 kN, dim≈ 320×200 mm)
 End of report.
