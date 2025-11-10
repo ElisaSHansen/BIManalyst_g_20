@@ -1,4 +1,4 @@
-CAPACITY CONTROL REPORT (IfcColumn, storey match: '-1')
+CAPACITY CONTROL REPORT (IfcColumn, storey match: 'Level -1')
 Ned = 882.78 kN | gamma_mo = 1.45 | fc_default = 35.0 N/mm²
 Model: 25-16-D-STR.ifc
 --------------------------------------------------------------------------------
