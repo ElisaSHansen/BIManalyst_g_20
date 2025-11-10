@@ -75,7 +75,7 @@ def element_storey(element):
                 return up
     return None
 
-def is_storey_match_minus1(storey):
+def is_storey_match(storey):
     """Check if storey name/longname contains the STOREY_MATCH string."""
     txt = (str(getattr(storey, "Name", "") or "") + " " + str(getattr(storey, "LongName", "") or "")).lower()
     return STOREY_MATCH.lower() in txt
@@ -150,7 +150,7 @@ def _normalize_material_class(names):
             return cls
     return "Unknown"
 
-# ---------- NEW: fc from structured IFC properties ----------
+# ---------- fc from structured IFC properties ----------
 def _unwrap_val(v):
     """Return a numeric value from IFC measure types if present."""
     if v is None:
@@ -410,6 +410,7 @@ def area_from_profile(profile, to_m):
             A = 2*b*tf + (h-2*tf)*tw
             return A*(to_m**2), True
 
+    # T-shape profile:
     if profile.is_a("IfcTShapeProfileDef"):
         b = _f(profile.FlangeWidth); h = _f(profile.Depth)
         tf = _f(getattr(profile, "FlangeThickness", None))
@@ -418,6 +419,7 @@ def area_from_profile(profile, to_m):
             A = b*tf + (h-tf)*tw
             return A*(to_m**2), True
 
+    # U-shape profile:
     if profile.is_a("IfcUShapeProfileDef"):
         b = _f(profile.FlangeWidth); h = _f(profile.Depth)
         tf = _f(getattr(profile, "FlangeThickness", None))
@@ -426,6 +428,7 @@ def area_from_profile(profile, to_m):
             A = 2*b*tf + (h-2*tf)*tw
             return A*(to_m**2), True
 
+    # Z shape profile:
     if profile.is_a("IfcZShapeProfileDef"):
         b = _f(profile.FlangeWidth); h = _f(profile.Depth)
         tf = _f(getattr(profile, "FlangeThickness", None))
@@ -479,7 +482,7 @@ def main():
 
         for col in model.by_type("IfcColumn"):
             st = element_storey(col)
-            if not st or not is_storey_match_minus1(st):
+            if not st or not is_storey_match(st):
                 continue  # only storey "-1"
             storey_name = getattr(st, "LongName", None) or getattr(st, "Name", "<unknown storey>")
 
