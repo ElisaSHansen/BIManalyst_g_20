@@ -10,14 +10,14 @@ import math
 from contextlib import redirect_stdout
 import ifcopenshell
 
-# Geometry as fallback (bbox) if profile data is missing
+# Geometry as fallback, bounding box, if profile data is missing
 try:
     import ifcopenshell.geom as geom
     GEOM_OK = True
 except Exception:
     GEOM_OK = False
 
-A_SANITY_EDGE_M = 5.0  # if plan dims > 5 m → use bbox as sanity fallback
+A_SANITY_EDGE_M = 5.0  # if dimensions > 5 m → use bounding box asfallback
 
 # ---------- Units ----------
 def length_unit_scale_to_m(model):

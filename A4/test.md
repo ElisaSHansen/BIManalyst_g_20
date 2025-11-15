@@ -15,7 +15,7 @@ The script reads an IFC file (a Building Information Model), finds all columns o
 
 Then it reports whether each column passes the capacity check:  
 if Ned < Nrd,  the column is safe.
-
+ 
 ---
 
 ## Requirements for the code to run
@@ -248,4 +248,5 @@ The scripts extracts:
 - Axial capacity
 
 It is a robust approach on how to handle missing IFC data by using fallback machanisms to ensure a complete analysis even when the IFC file lacks material property sets.
+
 ---
