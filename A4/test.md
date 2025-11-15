@@ -1,4 +1,4 @@
-# Tutorial: IFC Column analysis S\script
+# Tutorial: IFC Column analysis script
 
 This tutorial explains, step by step, how the provided Python script (A3) works.
 It dives deeper into how you can extract material strength properties, and what to do if it does not exist in the model
