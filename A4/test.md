@@ -9,9 +9,9 @@ This script helps you analyze concrete column elements from an IFC model using t
 ## Overview
 
 The script reads an IFC file (a Building Information Model), finds all columns on a specific storey (level), and calculates their axial capacity (Nrd) based on:
-- The axial load: Ned
-- The material strength of concrete: fc
-- The cross-section area of the column: A
+- The axial load: `Ned`
+- The material strength of concrete: `fc`
+- The cross-section area of the column: `A`
 
 Then it reports whether each column passes the capacity check:  
 if Ned < Nrd,  the column is safe.
@@ -91,7 +91,7 @@ The first functions navigate IFC’s structure: Project --> Site --> Building --
 
 The second function finds which spatial element and calls for the first function.
 
-The function `is_storey_match(storey)` then checks whether the storey name matches "Level x" that you defined in the  user settings. And allows you to analyze any storey by changing 'STORY_MATCH'.
+The function `is_storey_match(storey)` then checks whether the storey name matches "Level x" that you defined in the  user settings. And allows you to analyze any storey by changing `STORY_MATCH`.
 
 ---
 
@@ -134,7 +134,7 @@ Therefore, the script uses a three-level strategy to find fc:
     # 3) Fallback to default value fc_default
     return names, mcls, fc_default, "default"
 ```
-Here, the code tries to find fc from IfcProperties or name. If both methods fail, it uses the default value. This guarantees that the script always has an compressive strength to calculate the axial capacity with.
+Here, the code tries to find fc from `IfcProperties` or name. If both methods fail, it uses the default value. This guarantees that the script always has an compressive strength to calculate the axial capacity with.
 
 ---
 
@@ -244,8 +244,8 @@ Make sure the `.ifc` file is in the same folder as your python file or update `M
 The scripts extracts:
 - Columns geometry --> Cross-section area
 - Info about the material
-- Concrete strength (fc, compressive)
-- Axial capacity
+- Concrete strength (`fc`, compressive)
+- Axial capacity `Nrd`
 
 It is a robust approach on how to handle missing IFC data by using fallback machanisms to ensure a complete analysis even when the IFC file lacks material property sets.
 
