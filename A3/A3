@@ -527,7 +527,7 @@ def main():
 
             Nrd = capacity_kN(fc, A_m2) if A_m2 is not None else None
             if Nrd is not None:
-                status = "OK" if Nrd >= Ned else "NOT OK"
+                status = "OK" if Nrd >= Ned else "Maybe insufficient"
                 util = (Ned / Nrd) * 100.0 if Nrd > 0 else float("inf")
                 if util > worst["util"]:
                     worst.update({"util": util, "gid": col.GlobalId, "Nrd": Nrd, "w": w_mm if wh_m else None, "h": h_mm if wh_m else None})
@@ -553,7 +553,7 @@ def main():
         # Summary
         print("-"*80)
         total = ok_cnt + nok_cnt
-        print(f"TOTAL: {total} checked columns | OK: {ok_cnt} | NOT OK: {nok_cnt}")
+        print(f"TOTAL: {total} checked columns | OK: {ok_cnt} | Maybe insufficient: {nok_cnt}")
         if worst["gid"] is not None:
             print(f"Worst utilization: {worst['util']:.2f}%  (GlobalId {worst['gid']}, Nrd={worst['Nrd']:.1f} kN, "
                   f"dim≈ {worst['w']:.0f}×{worst['h']:.0f} mm)")

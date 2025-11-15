@@ -501,6 +501,6 @@ Model: 25-16-D-STR.ifc
   Nrd = 3379.3 kN  vs  Ned = 882.8 kN  → OK (utilization = 26.12%)
 
 --------------------------------------------------------------------------------
-TOTAL: 83 checked columns | OK: 83 | NOT OK: 0
+TOTAL: 83 checked columns | OK: 83 | Maybe insufficient: 0
 Worst utilization: 57.14%  (GlobalId 1gBbes5lD1DQsWtn$7fdd6, Nrd=1544.8 kN, dim≈ 320×200 mm)
 End of report.
