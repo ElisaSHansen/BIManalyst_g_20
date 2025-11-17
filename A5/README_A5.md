@@ -1,8 +1,8 @@
-# Reflection Ida Fiksdal (s253450)
+# Reflection - Ida Fiksdal (s253450)
 
 ---
 
-** Q: Identify your own level at the beginning of this course and where you ended:** 
+**Q: Identify your own level at the beginning of this course and where you ended:** 
 
 A: At the beginning of this course, my experience with programming, the IFC standard, and the broader BIM universe was extremely limited. I had little understanding of what was possible, how BIM data could be structured, or how IFC could be used in practice.
 Now, at the end of the course, I can confidently say that I’ve grown into a far more capable BIM analyst. I understand how to use various tools to extract, interpret, and work with BIM data, and I feel more comfortable navigating the OpenBIM ecosystem. That being said, I still have a long journey ahead before I could call myself an “OpenBIM Champion.” The possibilities within BIM are huge, and I’ve only taken my first steps, but they have been meaningful ones.
@@ -17,7 +17,7 @@ A: I see OpenBIM becoming an important part of my workflow, especially in group-
 
 ## My process of developing the tutorial
 
-** Q: Did the process of the course enable you to answer or define questions that you might need later for thesis? **
+**Q: Did the process of the course enable you to answer or define questions that you might need later for thesis?**
 
 A: Yes. I feel that the course helped me understand how to frame questions, structure problems, and think critically about data workflows. It also pushed me to develop tools and approaches that I can build upon later, potentially even in my thesis work in other courses.
 
