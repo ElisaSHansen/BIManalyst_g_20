@@ -62,5 +62,45 @@ Aside from this change, we believe our tool still fully aligns with the use case
 
 ---
 
+# Reflection - Elisa Steen-Hansen (s253443)
+
+---
+
+**Q: Identify your own level at the beginning of this course and where you ended:** 
+A: I started as an analyst because this was a role my partner and I wanted to explore further. We had no previous experience with coding in Python, so we were motivated to dive deeper into how programming can be applied within BIM. We remained analysts throughout the entire course and stayed consistent in our direction, because early on we identified exactly what we wanted to achieve with our code.
+
+**Q: What else do you still need to learn?**
+A: I want to learn more about the practical use cases for this type of approach in the BIM world. The IfcOpenShell library was overwhelming at first, and I would like to understand more about its structure and the broader possibilities it offers beyond what we implemented in our project. By exploring the library further, I can gain valuable knowledge that will be relevant for my future career and academic work.
+
+**Q: How you might use OpenBIM in the future**
+A: Our intention has been to develop a tool that could be used later in our studies and careers. I look forward to the continued development of OpenBIM standards, especially regarding clearer definitions of information requirements at different BIM levels. This will make it easier to develop tools that work reliably across models.
+
+Next semester I will take “Advanced Building Design”, and I expect to use the knowledge I gained to validate and check the model we create in that course. Our tool will allow me to quickly verify whether the necessary information exists in the model and whether it is correct.
+
+## My process of developing the tutorial
+
+**Q: Did the process of the course enable you to answer or define questions that you might need later for thesis?**
+A: Yes. At the beginning of the course, we spent a lot of time formulating questions that could be answered using IfcOpenShell. When the time comes to develop a research question for my master's thesis, I will definitely keep in mind that I now have the knowledge and the tools to answer engineering questions in new ways. This course has changed how I think about structural engineering problems because I now have additional methods for exploring and validating information.
+
+**Q: Would you have preferred to have been given less choise in the use cases?**
+A: I will admit that it was overwhelming at first to define a use case, because there were so many possibilities. Our strategy was to choose one structural element and calculate something manageable. The advantage of having many options is that it gives the freedom to explore topics we genuinely care about. Therefore, in the end, I think it was beneficial to have this freedom. The manager–analyst structure also made it easier to define a clear problem, and our group wanted a project with a coherent direction.
+
+**Q: Was the number of tools for the course ok – should we have more or less? If so which ones yould you leave out?**
+A: I think the selection of tools in the course was good. I especially see the strong value in using GitHub. I don’t think additional tools are necessary because the provided tools are sufficient for the learning goals.
+
+## My future for Advanced use of OpenBIM
+
+**Q: Are you likely to use OpenBIM tools in your theisis?**
+A: Yes, the code we developed is highly relevant for use in my master’s thesis or other future projects. Our script calculates area, dimensions, axial capacity, and filters columns by storey, which makes it a very practical and efficient tool. However, it does depend on having an IFC model for the structure, so it remains to be seen whether that fits my thesis topic. Regardless, this process has opened an entire library of possibilities for other types of calculations and model checks using Python.
+
+**Q: Are you likely to use OpenIBM tools in your professional life in the next 10 years.**
+A: I recently had a job interview where we discussed the work I completed in this course. I received positive feedback because the company is currently developing spreadsheets and automated calculations based on IFC models. They viewed this type of knowledge as valuable.
+In my professional life over the next decade, I expect to further develop my skills within OpenBIM so I can perform seamless checks on structural models and FEM outputs. This will benefit not only my own work but can also be shared with colleagues, making workflows more efficient across entire engineering teams.
 
 
+## Wrap up
+
+**Q: Conclude the journey through A1-A5**
+My journey in this course has been both challenging and rewarding. I have gained practical skills in OpenBIM and learned how information extraction can be optimized using Python. The tool we developed has taught me how IFC data can be analyzed, validated, and used for structural capacity checks in an automated way. This knowledge is highly relevant for my future career and studies, and the script we created is something I, and others, can build on moving forward. The course has expanded my understanding of what is possible with OpenBIM, and it has given me tools that I will continue to use in both academic and professional contexts.
+
+---
