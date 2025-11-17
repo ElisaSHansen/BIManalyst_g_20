@@ -1,6 +1,8 @@
 # Reflection Ida Fiksdal (s253450)
 
-Q: Identify your own level at the beginning of this course and where you ended:
+---
+
+* Q: Identify your own level at the beginning of this course and where you ended: *
 
 A: At the beginning of this course, my experience with programming, the IFC standard, and the broader BIM universe was extremely limited. I had little understanding of what was possible, how BIM data could be structured, or how IFC could be used in practice.
 Now, at the end of the course, I can confidently say that I’ve grown into a far more capable BIM analyst. I understand how to use various tools to extract, interpret, and work with BIM data, and I feel more comfortable navigating the OpenBIM ecosystem. That being said, I still have a long journey ahead before I could call myself an “OpenBIM Champion.” The possibilities within BIM are huge, and I’ve only taken my first steps, but they have been meaningful ones.
@@ -46,4 +48,5 @@ Q: Conclude the journey through A1-A5
 A: My journey from A1 to A5 has been genuinely meaningful. I started out knowing almost nothing about the larger BIM world, how to navigate it, what the possibilities were, or even how to approach programming within it. Now, at the end of the course, I’ve developed a tool that not only I can use, but one that others may benefit from as well.
 Throughout this process, I’ve learned how to extract data from IFC files, how to structure and share information, how to work with BIM standards and different libraries, and how important it is to plan the workflow from start to finish, in order to work efficiently. I’ve also gained valuable experience in working collaboratively within teams.
 
+---
 
