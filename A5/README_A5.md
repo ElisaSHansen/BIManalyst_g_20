@@ -13,7 +13,7 @@ Q: How you might use OpenBIM in the future
 
 A: I see OpenBIM becoming an important part of my workflow, especially in group-based or interdisciplinary projects. OpenBIM provides a transparent, reliable, and structured approach to handling data, something that is essential when collaborating across teams. As the construction industry continues its digital transformation, OpenBIM offers a safe and effective way to store, exchange, and coordinate information.
 
-##My process of developing the tutorial
+## My process of developing the tutorial
 
 Q: Did the process of the course enable you to answer or define questions that you might need later for thesis?
 
@@ -39,7 +39,7 @@ Q: Are you likely to use OpenIBM tools in your professional life in the next 10 
 
 A: Yes. OpenBIM is becoming increasingly important in the industry and is growing rapidly in relevance. I’m grateful that I chose this course because it has given me practical exposure to tools and concepts I can use in real-world projects. I expect OpenBIM to be part of my work life, especially when working in teams that depend on efficient workflows and secure data exchange.
 
-##Wrap up
+## Wrap up
 
 Q: Conclude the journey through A1-A5
 
