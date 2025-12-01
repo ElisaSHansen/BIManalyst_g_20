@@ -242,7 +242,9 @@ Make sure the `.ifc` file is in the same folder as your python file or update `M
 
 ## Summary
 Title: IFC Column axial capacity analysis
+
 Category: Structures
+
 Description: The scripts extracts Columns geometry (to find cross-section area), Info about the material, Concrete strength and then calculates the Axial capacity for all columns in the user defined level. It also handles missing material property sets.
 
 ---
