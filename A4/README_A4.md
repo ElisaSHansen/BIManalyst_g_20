@@ -240,13 +240,8 @@ Make sure the `.ifc` file is in the same folder as your python file or update `M
 ---
 
 ## Summary
-
-The scripts extracts:
-- Columns geometry --> Cross-section area
-- Info about the material
-- Concrete strength (`fc`, compressive)
-- Axial capacity `Nrd`
-
-It is a robust approach on how to handle missing IFC data by using fallback machanisms to ensure a complete analysis even when the IFC file lacks material property sets.
+Title: IFC Column axial capacity analysis
+Category: Structures
+Description: The scripts extracts Columns geometry (to find cross-section area), Info about the material, Concrete strength and then calculates the Axial capacity for all columns in the user defined level. It also handles missing material property sets.
 
 ---
